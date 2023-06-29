@@ -15,3 +15,9 @@ function mostrarTarea(event) {
 
 
 }
+
+
+function update(){
+    let html = '';
+
+}

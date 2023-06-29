@@ -10,8 +10,12 @@ const listado= document.getElementById('taskContainer');
 form.addEventListener('submit',mostrarTarea);
 
 
+const arrTareas = [];
 function mostrarTarea(event) {
     event.preventDefault();
+    const formdata = new FormData(form);
+
+    
 
 
 }
@@ -19,5 +23,9 @@ function mostrarTarea(event) {
 
 function update(){
     let html = '';
-
+    arrTareas.forEach(element => {
+        const li = `<li>${element.nombre}</li>`
+        html += li
+    });
+    listado.innerHTML=html;
 }

@@ -1,0 +1,15 @@
+let count = 0;
+  let binary = n.toString(2); // Convert the number to binary representation
+  
+  for (let i = 0; i < binary.length; i++) {
+    if (binary[i] === '1') {
+      count++;
+    }
+  }
+  
+  return count;
+
+
+// * OtraForma
+
+  countBits = n => n.toString(2).split('0').join('').length;

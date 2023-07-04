@@ -26,3 +26,6 @@ dominio.com
 [LOG ENTRY] [LOG] [user:@beco] Logged out
 12345Texto
 12345 Texto
+
+
+//* ^\d{3,6}$

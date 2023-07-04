@@ -10,6 +10,8 @@ function extraerMultiplosDeDiez(arr){
   }
   
   extraerMultiplosDeDiez([100000,1,120,12])
+
+  // OPTIMIZACIÓN
   
   const extraerMultiplosDeDiez = (arr) => arr.filter(num=>num % 10 === 0).sort((a,b)=>a - b);
   

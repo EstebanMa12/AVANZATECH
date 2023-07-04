@@ -16,7 +16,8 @@ let education = ['David',...team1,...team2];
 
 console.log(education);
 
-reg=/bla/
+reg=\bla\
 
 const a= lorem.match(reg)
 console.log(a);
+

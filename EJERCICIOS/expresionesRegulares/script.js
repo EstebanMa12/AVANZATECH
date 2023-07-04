@@ -16,8 +16,7 @@ let education = ['David',...team1,...team2];
 
 console.log(education);
 
-reg=\bla\
 
-const a= lorem.match(reg)
+const a= lorem.match(/[b-l]/) //* No va a dar nunca porque primero tiene que hacerse un split del string 
 console.log(a);
 

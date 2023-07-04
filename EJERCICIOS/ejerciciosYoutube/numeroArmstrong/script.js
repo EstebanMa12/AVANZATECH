@@ -8,4 +8,7 @@ function ArmstrongNumber(numero){
     return resultado === numero
 }
 
-console.log(ArmstrongNumber(351));
+console.log(ArmstrongNumber(371));
+
+
+console.log(ArmstrongNumber(153));

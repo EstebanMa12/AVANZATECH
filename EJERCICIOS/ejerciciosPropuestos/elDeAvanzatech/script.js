@@ -12,12 +12,13 @@ function diagonal(array){
     for(let i =0; i<array.length;i++){
         const arreglo=[]
         for (let j  = 0; j <= i; j++) {
-            arreglo.push(array[j][j+i]);        
+            arreglo.push(array[j][i]);        
         }
     diagonal += arreglo[0];
     }
     return diagonal
 }
+console.log(diagonal(array));
 
 
 function numberAvanzatech(array) {
